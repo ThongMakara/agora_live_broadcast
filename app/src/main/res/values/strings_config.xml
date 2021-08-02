@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="private_app_id" translatable="false">67b2515676ed4b51b81ab4ca6db6b397</string>
+    <string name="agora_access_token" translatable="false"></string>
+</resources>

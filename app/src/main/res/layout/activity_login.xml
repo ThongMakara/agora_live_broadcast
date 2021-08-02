@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:gravity="center"
+        android:text="Create Username"
+        android:textColor="#262626"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/background_login" />
+
+
+    <EditText
+        android:id="@+id/user_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@+id/button_login"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter Your Username"
+        android:lines="1"
+        android:padding="5dp"
+        android:textColor="#262626"
+        android:textColorHint="#A6A6A6" />
+
+    <EditText
+        android:id="@+id/txt_channel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@+id/button_login"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter Channel Name"
+        android:lines="1"
+        android:padding="5dp"
+        android:textColor="#262626"
+        android:textColorHint="#A6A6A6" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/selected"
+        android:clickable="true"
+        android:enabled="true"
+        android:gravity="center"
+        android:onClick="onClickLogin"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Register"
+        android:textColor="@color/blue_alpha" />
+</LinearLayout>
